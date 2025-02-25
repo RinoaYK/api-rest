@@ -1,0 +1,25 @@
+{
+  "name": "Lidia",
+  "account": { 
+    "number": "12345678-0",
+    "agency": "7Eyes",
+    "balance": 5000.00,
+    "limit": 1000.00
+  },
+  "card": {
+    "number": "xxxx xxxx xxxx 0000",
+    "limit": 1000.00
+  },
+  "features": [
+    {
+      "icon": "pix",
+      "description": "fazer pix"
+    }
+  ],
+  "news": [
+    {     
+      "icon": "propaganda",
+      "description": "propaganda 1"
+    }
+  ]
+}
