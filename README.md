@@ -48,4 +48,33 @@ classDiagram
   User "1" *-- "1" Card
   User "1" *-- "N" News
 ```
-
+## Railway Link
+https://web-production-6430a.up.railway.app/swagger-ui/index.html#/
+Exemplo para adicionar um novo usuário:
+```json
+{
+  "name": "nome do usuário",
+  "account": {
+    "number": "00000000-0",
+    "agency": "xxxxx",
+    "balance": 00.00,
+    "limit": 00.00
+  },
+  "card": {
+    "number": "xxxx xxxx xxxx 0000",
+    "limit": 00.00
+  },
+  "features": [
+    {
+      "icon": "pix",
+      "description": "fazer pix"
+    }
+  ],
+  "news": [
+    {
+      "icon": "propaganda",
+      "description": "propaganda 1"
+    }
+  ]
+}
+```
